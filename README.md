@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
@@ -11,6 +11,12 @@
     <meta property="og:url" content="https://votre-site.com" />
     <link rel="stylesheet" href="styles.css">
     <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
         nav {
             background: #222;
             padding: 15px;
@@ -22,6 +28,10 @@
             font-size: 20px;
             margin: 0 20px;
             font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #ff8c00;
         }
         header span {
             font-size: 32px;
@@ -29,11 +39,16 @@
         }
         .stars {
             font-size: 40px;
-            color: gold;
+            color: #ccc;
             cursor: pointer;
+        }
+        .stars span:hover,
+        .stars span:hover ~ span {
+            color: gold;
         }
         .section {
             margin-bottom: 80px;
+            padding: 20px;
         }
         .big-button {
             display: block;
@@ -47,6 +62,27 @@
             text-align: center;
             border-radius: 10px;
             text-decoration: none;
+            transition: background 0.3s ease;
+        }
+        .big-button:hover {
+            background-color: #e07b00;
+        }
+        input, textarea {
+            width: 80%;
+            max-width: 500px;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            cursor: pointer;
+        }
+        footer {
+            background: #222;
+            color: white;
+            padding: 10px;
+            margin-top: 40px;
         }
     </style>
 </head>
@@ -71,25 +107,26 @@ D’abord hésitante, Chloé accepte finalement l’invitation, rassurée par la
 
 Mais alors que la nuit s’installe et que les ombres du passé refont surface, une tension étrange s’insinue dans l’atmosphère feutrée du chalet. Des regards appuyés, des silences lourds, des détails qui ne collent pas… Chloé commence à se demander si elle a eu raison d’accepter cette invitation. Que cache réellement Charles derrière son sourire énigmatique et ses attentions presque obsessionnelles ?
 
-Alors que la neige recouvre le paysage d’un voile immaculé, la vérité, elle, s’apprête à éclater… et elle pourrait bien être plus glaçante que l’hiver lui-même.</p>
+Alors que la neige recouvre le paysage d’un voile immaculé, la vérité, elle, s’apprête à éclater… et elle pourrait bien être plus glaçante que l’hiver lui-même. 
+</p>
         <img src="Cover.png" alt="Couverture du livre de D.R. Horizons" class="book-cover">
         <p>Bientôt disponible. Plongez dans une œuvre captivante et hors du commun.</p>
         <a href="https://www.amazon.com/dp/votre_livre" class="big-button">Acheter sur Amazon</a>
         
         <h3>Notez ce livre :</h3>
-        <div class="stars" aria-live="polite">
-            <span class="star" data-value="1">★</span>
-            <span class="star" data-value="2">★</span>
-            <span class="star" data-value="3">★</span>
-            <span class="star" data-value="4">★</span>
-            <span class="star" data-value="5">★</span>
+        <div class="stars" aria-label="Notation par étoiles">
+            <span class="star" data-value="1" aria-label="1 étoile">★</span>
+            <span class="star" data-value="2" aria-label="2 étoiles">★</span>
+            <span class="star" data-value="3" aria-label="3 étoiles">★</span>
+            <span class="star" data-value="4" aria-label="4 étoiles">★</span>
+            <span class="star" data-value="5" aria-label="5 étoiles">★</span>
         </div>
         <p id="rating-feedback" aria-live="polite"></p>
     </section>
     
     <section class="section" id="about">
         <h2>À propos</h2>
-        <p>D.R. Horizons est un conteur passionné par les atmosphères envoûtantes et les récits à suspense où chaque détail compte. À travers une écriture fluide et immersive, il entraîne ses lecteurs dans des univers où le mystère côtoie l’émotion, et où les apparences sont souvent trompeuses.</p>
+        <p>D.R. Horizons est un conteur passionné par les atmosphères envoûtantes et les récits à suspense où chaque détail compte. À travers une écriture fluide et immersive, il entraîne ses lecteurs dans des univers où le mystère côtoie l’émotion, et où les apparences sont souvent trompeuses. </p>
     </section>
     
     <section class="section" id="contact">
@@ -110,7 +147,7 @@ Alors que la neige recouvre le paysage d’un voile immaculé, la vérité, elle
     
     <section class="section" id="don">
         <h2>Soutenez mon écriture</h2>
-        <p>Votre soutien me permet de continuer à écrire et à publier des œuvres qui sortent des sentiers battus.</p>
+        <p>Votre soutien me permet de continuer à écrire...</p>
         <a href="https://paypal.me/DRHorizons?country.x=CA&locale.x=fr_CA" class="big-button">Faire un don</a>
     </section>
     
@@ -121,8 +158,8 @@ Alors que la neige recouvre le paysage d’un voile immaculé, la vérité, elle
     <script>
         document.querySelectorAll('.star').forEach(star => {
             star.addEventListener('click', function() {
-                document.querySelectorAll('.star').forEach(s => s.style.color = '#ccc');
                 let value = this.getAttribute('data-value');
+                document.querySelectorAll('.star').forEach(s => s.style.color = '#ccc');
                 for (let i = 0; i < value; i++) {
                     document.querySelectorAll('.star')[i].style.color = 'gold';
                 }
