@@ -85,7 +85,7 @@
 <body>
     <header>
         <img src="photo.jpeg" alt="Photo de D.R. Horizons" class="photo">
-        <span>D.R. Horizons - Aux limites du réel</span>
+        <span>D.R. Horizons - Aux frontières du réel</span>
     </header>
 
     <nav>
