@@ -1,3 +1,15 @@
+# D.R. Horizons 🌍
+
+Bienvenue sur **D.R. Horizons** ! Ce projet est un site web dédié à [insérer sujet ici].
+
+👉 **[Version Française](https://drhorizons.github.io/D.R.Horizons/index.html)**  
+🇬🇧 **[English Version](https://drhorizons.github.io/D.R.Horizons/en/)**
+
+## 🚀 Fonctionnalités
+- Version en français 🇫🇷
+- Version en anglais 🇬🇧
+- [Autres fonctionnalités…]
+
 
 <html lang="fr">
     
