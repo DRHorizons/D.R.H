@@ -117,7 +117,7 @@ Alors que la neige recouvre le paysage d’un voile immaculé, la vérité, elle
     
     <section class="section" id="about">
         <h2>À propos</h2>
-        <p>D.R. Horizons est un explorateur de l’imaginaire, un conteur aux mille facettes, porté par une soif d’aventure et une curiosité insatiable pour l’âme humaine. Écrivain atypique, il puise dans sa liberté de pensée et son goût pour la psychologie pour tisser des récits où le mystère flirte avec l’émotion, et où chaque détail a son importance. Installé à Montréal, une ville vibrante qui cultive l’ouverture d’esprit et la diversité des idées, il trouve dans ses rues, ses contrastes et son énergie créative une source d’inspiration inépuisable. Plus qu’un métier, l’écriture est pour lui une passion, un espace où il donne libre cours à son imagination débordante, façonnant des univers envoûtants où rien n’est jamais tout à fait ce qu’il semble être. </p>
+        <p>D.R. Horizons est un explorateur de l’imaginaire, un conteur aux mille facettes, porté par une soif d’aventure et une curiosité insatiable pour l’âme humaine. Écrivain atypique, il puise dans sa liberté de pensée et son goût pour la psychologie pour tisser des récits où le mystère flirte avec l’émotion, et où chaque détail a son importance. Installé à Montréal, une ville vibrante qui cultive l’ouverture d’esprit et la diversité des idées, il trouve dans ses rues, ses contrastes et son énergie créative une source d’inspiration inépuisable. L’écriture est pour lui une passion, un espace où il donne libre cours à son imagination débordante, façonnant des univers envoûtants où rien n’est jamais tout à fait ce qu’il semble être. </p>
     </section>
     
     <section class="section" id="contact">
