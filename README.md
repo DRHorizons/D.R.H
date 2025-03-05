@@ -14,7 +14,6 @@
         nav {
             background: #222;
             padding: 15px;
-            text-align: center;
         }
         nav a {
             color: white;
@@ -27,31 +26,34 @@
         nav a:hover {
             color: #ff8c00;
         }
-        .language-switch {
-            text-align: right;
-            padding: 10px;
-        }
-        .language-switch a {
-            margin: 10px;
+        .big-button {
+            display: inline-block;
+            background-color: #ff8c00;
+            color: white;
+            padding: 15px 30px;
             font-size: 18px;
             text-decoration: none;
             font-weight: bold;
-            color: #222;
-            cursor: pointer;
+            border-radius: 5px;
+            margin: 15px 0;
+            transition: background 0.3s;
         }
-        footer {
-            background: #222;
-            color: white;
-            padding: 10px;
-            margin-top: 40px;
+        .big-button:hover {
+            background-color: #e07b00;
+        }
+        .rating {
+            display: flex;
+            justify-content: center;
+            margin: 15px 0;
+        }
+        .star {
+            font-size: 25px;
+            color: #ff8c00;
+            cursor: pointer;
         }
     </style>
 </head>
 <body>
-    <div class="language-switch">
-        <a href="#francais">Français</a> | <a href="#english">English</a>
-    </div>
-
     <header>
         <img src="photo.jpeg" alt="Portrait de l'écrivain D.R. Horizons" class="photo">
     </header>
@@ -75,14 +77,21 @@ Alors que la neige recouvre le paysage d’un voile immaculé, la vérité, elle
 </p>
         <img src="Cover.png" alt="Couverture du livre de D.R. Horizons" class="book-cover">
         <p>Bientôt disponible. Plongez dans une œuvre captivante et hors du commun.</p>
+        
+        <!-- Ajout du rating à étoiles -->
+        <div class="rating">
+            <span class="star">★</span>
+            <span class="star">★</span>
+            <span class="star">★</span>
+            <span class="star">★</span>
+            <span class="star">☆</span>
+        </div>
+        
         <a href="https://www.amazon.com/dp/votre_livre" class="big-button">Acheter sur Amazon</a>
-    </section>
-    
-    <section class="section" id="about">
+   <section class="section" id="about">
         <h2>À propos</h2>
         <p>D.R. Horizons est un explorateur de l’imaginaire, un conteur aux mille facettes, porté par une soif d’aventure et une curiosité insatiable pour l’âme humaine. Écrivain atypique, il puise dans sa liberté de pensée et son goût pour la psychologie pour tisser des récits où le mystère flirte avec l’émotion, et où chaque détail a son importance. Installé à Montréal, une ville vibrante qui cultive l’ouverture d’esprit et la diversité des idées, il trouve dans ses rues, ses contrastes et son énergie créative une source d’inspiration inépuisable. L’écriture est pour lui une passion, un espace où il donne libre cours à son imagination débordante, façonnant des univers envoûtants où rien n’est jamais tout à fait ce qu’il semble être. </p>
-    </section>
-    
+
     <section class="section" id="contact">
         <h2>Contact</h2>
         <form id="contact-form">
@@ -108,3 +117,4 @@ Merci infiniment pour votre soutien !
 </p>
         <a href="https://paypal.me/DRHorizons?country.x=CA&locale.x=fr_CA" class="big-button">Faire un don</a>
     </section>
+</body>
