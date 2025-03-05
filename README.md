@@ -3,63 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>D.R. Horizons - Auteur de Thrillers Psychologiques</title>
+    <title>D.R. Horizons - Auteur</title>
     <meta name="description" content="Découvrez l'univers mystérieux et captivant de D.R. Horizon, écrivain de thrillers psychologiques et de récits réalistes aux confins du rêve et de l'inconnu. Rejoignez un cercle d'initiés et soutenez son œuvre littéraire." />
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            background-color: #0a0a0a;
-            color: #e0e0e0;
+            background-color: #ffffff;
+            color: #333;
             text-align: center;
             margin: 0;
             padding: 0;
         }
         header {
-            background-color: #1a1a1a;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #f8f8f8;
             padding: 20px;
-            font-size: 28px;
+            font-size: 24px;
             font-weight: bold;
-            letter-spacing: 2px;
+        }
+        .logo {
+            height: 50px;
         }
         .section {
             padding: 50px 20px;
+            max-width: 800px;
+            margin: auto;
         }
         .button {
             display: inline-block;
             padding: 12px 24px;
             margin-top: 20px;
-            background-color: #333;
+            background-color: #444;
             color: white;
             text-decoration: none;
             border-radius: 5px;
             transition: 0.3s;
         }
         .button:hover {
-            background-color: #555;
+            background-color: #666;
         }
-        .photo {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            object-fit: cover;
-            border: 2px solid #e0e0e0;
+        .photo, .book-cover {
+            width: 200px;
+            height: auto;
+            border-radius: 5px;
             margin-bottom: 20px;
         }
         footer {
-            background-color: #1a1a1a;
+            background-color: #f8f8f8;
             padding: 15px;
             font-size: 14px;
+            margin-top: 50px;
         }
     </style>
 </head>
 <body>
     <header>
-        D.R. Horizon - Aux limites du réel
+        <img src="logo.png" alt="Logo de D.R. Horizon" class="logo">
+        <span>D.R. Horizon - Aux limites du réel</span>
     </header>
     
     <section class="section">
         <h2>Bienvenue</h2>
-        <p>Découvrez un monde où le réalisme flirte avec le mystère, et où chaque mot révèle une vérité enfouie..</p>
+        <p>Découvrez un monde où le réalisme flirte avec le mystère, et où chaque mot révèle une vérité enfouie.</p>
         <a href="#oeuvres" class="button">Découvrir mon premier livre</a>
     </section>
     
@@ -71,8 +78,9 @@
     
     <section class="section" id="oeuvres">
         <h2>Mon premier livre</h2>
+        <img src="cover.jpg" alt="Couverture du livre" class="book-cover">
         <p>Bientôt disponible. Soyez les premiers à plonger dans une œuvre captivante et hors du commun.</p>
-        <a href="#contact" class="button">Rester informé</a>
+        <a href="https://www.amazon.com/dp/votre_livre" class="button">Acheter sur Amazon</a>
     </section>
     
     <section class="section" id="contact">
@@ -93,4 +101,5 @@
     </footer>
 </body>
 </html>
+
 
