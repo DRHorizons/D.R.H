@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>D.R. Horizons - Auteur</title>
     <meta name="description" content="Découvrez l'univers captivant de D.R. Horizons, écrivain de thrillers psychologiques et de récits mystérieux. Soutenez son œuvre littéraire.">
-    <meta name="keywords" content="Chalet des oubliés, D.R.H, DRH, D.R. Horizons, DR Horizons, Drhorizons, thriller psychologique, thriller noir, thriller horreur">
+    <meta name="keywords" content="Chalet des oubliés, D.R.H, DRH, D.R. Horizons, DR Horizons, Drhorizons, thriller psychologique, thriller noir, thriller horreur, best thriller book, best new book, best dark thriller, meilleur nouveau livre, meilleur trhiller noir, livre horreur, horror book, new horror book, new original horror book">
     <meta property="og:title" content="D.R. Horizons - Auteur">
     <meta property="og:description" content="Plongez dans l'univers troublant de D.R. Horizons, où rêve et réalité se confondent.">
     <meta property="og:image" content="cover.png">
