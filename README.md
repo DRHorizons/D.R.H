@@ -119,7 +119,7 @@ Alors que la neige recouvre le paysage d’un voile immaculé, la vérité, elle
     
     <section class="section" id="about">
         <h2>À propos</h2>
-        <p>D.R. D.R. Horizons est un conteur passionné par les atmosphères envoûtantes et les récits à suspense où chaque détail compte. À travers une écriture fluide et immersive, il entraîne ses lecteurs dans des univers où le mystère côtoie l’émotion, et où les apparences sont souvent trompeuses.
+        <p>D.R. Horizons est un conteur passionné par les atmosphères envoûtantes et les récits à suspense où chaque détail compte. À travers une écriture fluide et immersive, il entraîne ses lecteurs dans des univers où le mystère côtoie l’émotion, et où les apparences sont souvent trompeuses.
 
 Inspiré par les relations humaines et les secrets enfouis, D.R. Horizons aime explorer la psychologie de ses personnages, tissant des intrigues captivantes où tension et intensité se mêlent avec finesse. Le Chalet des oubliés en est un parfait exemple : un thriller glaçant qui plonge le lecteur dans un huis clos enneigé, entre fascination et danger.
 
