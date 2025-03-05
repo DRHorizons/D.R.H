@@ -24,7 +24,7 @@
             justify-content: space-between;
             background-color: #f8f8f8;
             padding: 20px;
-            font-size: 24px;
+            font-size: 28px;
             font-weight: bold;
         }
         nav {
@@ -84,31 +84,20 @@
 </head>
 <body>
     <header>
-        <img src="logo.png" alt="Logo de D.R. Horizons" class="logo">
+        <img src="photo.jpeg" alt="Photo de D.R. Horizons" class="photo">
         <span>D.R. Horizons - Aux limites du réel</span>
     </header>
 
     <nav>
+        <a href="#oeuvres">Mon Livre</a>
         <a href="#about">À propos</a>
-        <a href="#oeuvres">Livres</a>
         <a href="#contact">Contact</a>
         <a href="#don">Soutenir</a>
     </nav>
     
-    <section class="section">
-        <h1>Bienvenue</h1>
-        <p>Découvrez un monde où le réalisme flirte avec le mystère, et où chaque mot révèle une vérité enfouie.</p>
-        <a href="#oeuvres" class="button">Découvrir mon premier livre</a>
-    </section>
-    
-    <section class="section" id="about">
-        <h2>À propos</h2>
-        <img src="photo.jpeg" alt="Photo de D.R. Horizons" class="photo">
-        <p>D.R. Horizons écrit des récits où l’ombre et la lumière s’entrelacent, où le doute et le rêve façonnent une réalité troublante.</p>
-    </section>
-    
     <section class="section" id="oeuvres">
-        <h2>Mon premier livre</h2>
+        <h1>Mon premier livre</h1>
+        <p>Découvrez un monde où le réalisme flirte avec le mystère, et où chaque mot révèle une vérité enfouie.</p>
         <img src="Cover.png" alt="Couverture du livre" class="book-cover">
         <p>Bientôt disponible. Plongez dans une œuvre captivante et hors du commun.</p>
         <a href="https://www.amazon.com/dp/votre_livre" class="button">Acheter sur Amazon</a>
@@ -120,6 +109,11 @@
             <span class="star" data-value="4">★</span>
             <span class="star" data-value="5">★</span>
         </div>
+    </section>
+    
+    <section class="section" id="about">
+        <h2>À propos</h2>
+        <p>D.R. Horizons écrit des récits où l’ombre et la lumière s’entrelacent, où le doute et le rêve façonnent une réalité troublante.</p>
     </section>
     
     <section class="section" id="contact">
@@ -151,3 +145,4 @@
     </script>
 </body>
 </html>
+
