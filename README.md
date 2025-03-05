@@ -85,7 +85,7 @@
     <section class="section" id="don">
         <h2>Soutenez mon écriture</h2>
         <p>Votre soutien me permet de continuer à écrire et à publier des œuvres qui sortent des sentiers battus.</p>
-        <a href="https://paypal.me/votrenom" class="button">Faire un don</a>
+        <a href="[https://paypal.me/votrenom](https://paypal.me/DRHorizons?country.x=CA&locale.x=fr_CA)" class="button">Faire un don</a>
     </section>
     
     <footer>
