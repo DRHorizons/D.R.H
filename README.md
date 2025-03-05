@@ -1,14 +1,3 @@
-# D.R. Horizons 
-
-Bienvenue sur **D.R. Horizons** ! Ce projet est un site web dédié à l'univers créatif de D.R. Horizons.
-
-👉 **[Version Française](https://drhorizons.github.io/D.R.Horizons/index.html)**  
-🇬🇧 **[English Version](https://drhorizons.github.io/D.R.Horizons/en/)**
-
-## 🚀 Fonctionnalités
-- Version en français 🇫🇷
-- Version en anglais 🇬🇧
-
 
 
 <html lang="fr">
