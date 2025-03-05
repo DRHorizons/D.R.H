@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
@@ -8,100 +9,11 @@
     <meta property="og:description" content="Plongez dans l'univers troublant de D.R. Horizons, où rêve et réalité se confondent." />
     <meta property="og:image" content="cover.png" />
     <meta property="og:url" content="https://votre-site.com" />
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #ffffff;
-            color: #333;
-            text-align: center;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            background-color: #f8f8f8;
-            padding: 20px;
-            font-size: 28px;
-            font-weight: bold;
-        }
-        nav {
-            background: #444;
-            padding: 10px;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            font-size: 18px;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-        .section {
-            padding: 50px 20px;
-            max-width: 800px;
-            margin: auto;
-        }
-        .button {
-            display: inline-block;
-            padding: 12px 24px;
-            margin-top: 20px;
-            background-color: #444;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: 0.3s;
-        }
-        .button:hover {
-            background-color: #ff8c00;
-            transition: 0.3s ease-in-out;
-        }
-        .photo, .book-cover {
-            width: 200px;
-            height: auto;
-            border-radius: 5px;
-            margin-bottom: 20px;
-        }
-        .stars {
-            display: flex;
-            justify-content: center;
-            gap: 5px;
-        }
-        .star {
-            font-size: 30px;
-            cursor: pointer;
-            color: #ccc;
-            transition: 0.2s;
-        }
-        .star:hover {
-            transform: scale(1.2);
-            color: gold;
-        }
-        .star.active {
-            color: gold;
-        }
-        footer {
-            background-color: #f8f8f8;
-            padding: 15px;
-            font-size: 14px;
-            margin-top: 50px;
-        }
-        @media (max-width: 600px) {
-            header {
-                flex-direction: column;
-                text-align: center;
-            }
-            .photo {
-                width: 150px;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <img src="photo.jpeg" alt="Photo de D.R. Horizons" class="photo">
+        <img src="photo.jpeg" alt="Portrait de l'écrivain D.R. Horizons" class="photo">
         <span>D.R. Horizons - Aux frontières du réel</span>
     </header>
 
@@ -122,18 +34,19 @@
 
         <p>Alors que la neige recouvre le paysage d’un voile immaculé, la vérité, elle, s’apprête à éclater… et elle pourrait bien être plus glaçante que l’hiver lui-même.</p>
 
-        <img src="Cover.png" alt="Couverture du livre" class="book-cover">
+        <img src="Cover.png" alt="Couverture du livre de D.R. Horizons" class="book-cover">
         <p>Bientôt disponible. Plongez dans une œuvre captivante et hors du commun.</p>
         <a href="https://www.amazon.com/dp/votre_livre" class="button">Acheter sur Amazon</a>
         
         <h3>Notez ce livre :</h3>
-        <div class="stars">
+        <div class="stars" aria-live="polite">
             <span class="star" data-value="1" aria-label="1 étoile">★</span>
             <span class="star" data-value="2" aria-label="2 étoiles">★</span>
             <span class="star" data-value="3" aria-label="3 étoiles">★</span>
             <span class="star" data-value="4" aria-label="4 étoiles">★</span>
             <span class="star" data-value="5" aria-label="5 étoiles">★</span>
         </div>
+        <p id="rating-feedback" aria-live="polite"></p>
     </section>
     
     <section class="section" id="about">
@@ -143,8 +56,18 @@
     
     <section class="section" id="contact">
         <h2>Contact & Soutien</h2>
-        <p>Votre avis compte. Écrivez-moi, partagez vos impressions, et donnez votre avis.</p>
-        <p><a href="mailto:contact@drhorizon.com" class="button">Envoyer un message</a></p>
+        <form id="contact-form">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit" class="button">Envoyer</button>
+        </form>
     </section>
     
     <section class="section" id="don">
@@ -157,25 +80,6 @@
         © 2025 D.R. Horizons - Un écrivain hors limites
     </footer>
 
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            const stars = document.querySelectorAll('.star');
-            const savedRating = localStorage.getItem("userRating");
-
-            if (savedRating) {
-                stars[savedRating - 1].classList.add("active");
-            }
-
-            stars.forEach(star => {
-                star.addEventListener('click', function() {
-                    stars.forEach(s => s.classList.remove('active'));
-                    this.classList.add('active');
-                    let value = this.getAttribute('data-value');
-                    localStorage.setItem("userRating", value);
-                    alert('Merci pour votre note : ' + value + ' étoiles !');
-                });
-            });
-        });
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
