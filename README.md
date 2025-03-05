@@ -1,11 +1,12 @@
-<!DOCTYPE html>
+
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>D.R. Horizons - Auteur</title>
+    <meta name="description" content="Découvrez l'univers captivant de D.R. Horizons, écrivain de thrillers psychologiques et de récits mystérieux. Soutenez son œuvre littéraire.">
     <link rel="stylesheet" href="styles.css">
-    <style>
+
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -59,6 +60,10 @@
         <button onclick="switchLanguage('en')">🇬🇧 English</button>
     </div>
     
+    <header>
+        <img src="photo.jpeg" alt="Portrait de l'écrivain D.R. Horizons" class="photo">
+    </header>
+
     <div id="fr" class="lang-section active">
         <h1>Bienvenue sur le site de D.R. Horizons</h1>
         <p>Découvrez l'univers captivant de D.R. Horizons, écrivain de thrillers psychologiques et de récits mystérieux.</p>
@@ -70,7 +75,12 @@ D’abord hésitante, Chloé accepte finalement l’invitation, rassurée par la
 Mais alors que la nuit s’installe et que les ombres du passé refont surface, une tension étrange s’insinue dans l’atmosphère feutrée du chalet. Des regards appuyés, des silences lourds, des détails qui ne collent pas… Chloé commence à se demander si elle a eu raison d’accepter cette invitation. Que cache réellement Charles derrière son sourire énigmatique et ses attentions presque obsessionnelles ?
 
 Alors que la neige recouvre le paysage d’un voile immaculé, la vérité, elle, s’apprête à éclater… et elle pourrait bien être plus glaçante que l’hiver lui-même.
-</p>
+</p></p>
+        <img src="Cover.png" alt="Couverture du livre de D.R. Horizons" class="book-cover">
+        <p>Bientôt disponible. Plongez dans une œuvre captivante et hors du commun.</p>
+        <a href="https://www.amazon.com/dp/votre_livre" class="big-button">Acheter sur Amazon</a>
+    </section>
+
         <h2>À propos</h2>
         <p>D.R. Horizons est un explorateur de l’imaginaire, un conteur aux mille facettes, porté par une soif d’aventure et une curiosité insatiable pour l’âme humaine. Écrivain atypique, il puise dans sa liberté de pensée et son goût pour la psychologie pour tisser des récits où le mystère flirte avec l’émotion, et où chaque détail a son importance. Installé à Montréal, une ville vibrante qui cultive l’ouverture d’esprit et la diversité des idées, il trouve dans ses rues, ses contrastes et son énergie créative une source d’inspiration inépuisable. L’écriture est pour lui une passion, un espace où il donne libre cours à son imagination débordante, façonnant des univers envoûtants où rien n’est jamais tout à fait ce qu’il semble être. </p>
         <h2>Contact</h2>
@@ -86,6 +96,10 @@ Merci infiniment pour votre soutien !
 </p>
     </div>
     
+    <header>
+        <img src="photo.jpeg" alt="Portrait de l'écrivain D.R. Horizons" class="photo">
+    </header>
+
     <div id="en" class="lang-section">
         <h1>Welcome to D.R. Horizons' Website</h1>
         <p>Explore the captivating world of D.R. Horizons, a psychological thriller writer.</p>
@@ -99,7 +113,12 @@ But as night falls and shadows of the past resurface, a strange tension creeps i
 As the snow blankets the landscape in a pristine veil, the truth is about to be revealed... and it might be more chilling than winter itself.
 </p>
         <h2>About</h2>
-        <p>D.R. Horizons is an explorer of the imagination, a storyteller with many facets, driven by a thirst for adventure and an insatiable curiosity about the human soul. An unconventional writer, he draws on his freedom of thought and love of psychology to weave stories where mystery flirts with emotion, and where every detail matters. Living in Montreal, a vibrant city that fosters open-mindedness and diverse ideas, he finds in its streets, contrasts, and creative energy an inexhaustible source of inspiration. Writing is his passion, a space where he gives free rein to his overflowing imagination, shaping mesmerizing universes where nothing is ever quite what it seems. </p>
+        <p>D.R. Horizons is an explorer of the imagination, a storyteller with many facets, driven by a thirst for adventure and an insatiable curiosity about the human soul. An unconventional writer, he draws on his freedom of thought and love of psychology to weave stories where mystery flirts with emotion, and where every detail matters. Living in Montreal, a vibrant city that fosters open-mindedness and diverse ideas, he finds in its streets, contrasts, and creative energy an inexhaustible source of inspiration. Writing is his passion, a space where he gives free rein to his overflowing imagination, shaping mesmerizing universes where nothing is ever quite what it seems. </p></p>
+        <img src="Cover.png" alt="Couverture du livre de D.R. Horizons" class="book-cover">
+        <p>Bientôt disponible. Plongez dans une œuvre captivante et hors du commun.</p>
+        <a href="https://www.amazon.com/dp/votre_livre" class="big-button">Acheter sur Amazon</a>
+    </section>
+
         <h2>Contact</h2>
         <p>Contact me for any inquiries or collaborations.</p>
         <h2>Support</h2>
