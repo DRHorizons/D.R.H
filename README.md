@@ -53,7 +53,7 @@
 <body>
     <header>
         <img src="photo.jpeg" alt="Portrait de l'écrivain D.R. Horizons" class="photo">
-        <span>D.R. Horizons - Aux frontières du réel</span>
+        <span>Aux frontières du réel</span>
     </header>
 
     <nav>
