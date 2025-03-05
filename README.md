@@ -1,14 +1,16 @@
-
+<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>D.R. Horizons - Auteur</title>
-    <meta name="description" content="Découvrez l'univers captivant de D.R. Horizons, écrivain de thrillers psychologiques et de récits mystérieux. Soutenez son œuvre littéraire." />
-    <meta property="og:title" content="D.R. Horizons - Auteur" />
-    <meta property="og:description" content="Plongez dans l'univers troublant de D.R. Horizons, où rêve et réalité se confondent." />
-    <meta property="og:image" content="cover.png" />
-    <meta property="og:url" content="https://votre-site.com" />
+    <meta name="description" content="Découvrez l'univers captivant de D.R. Horizons, écrivain de thrillers psychologiques et de récits mystérieux. Soutenez son œuvre littéraire.">
+    <meta name="keywords" content="Chalet des oubliés, D.R.H, DRH, D.R. Horizons, DR Horizons, Drhorizons, thriller psychologique, thriller noir, thriller horreur">
+    <meta property="og:title" content="D.R. Horizons - Auteur">
+    <meta property="og:description" content="Plongez dans l'univers troublant de D.R. Horizons, où rêve et réalité se confondent.">
+    <meta property="og:image" content="cover.png">
+    <meta property="og:url" content="https://drhorizons.github.io/D.R.H/">
+    <link rel="canonical" href="https://drhorizons.github.io/D.R.H/">
     <link rel="stylesheet" href="styles.css">
     <style>
         body {
@@ -89,7 +91,6 @@
 <body>
     <header>
         <img src="photo.jpeg" alt="Portrait de l'écrivain D.R. Horizons" class="photo">
-    
     </header>
 
     <nav>
@@ -112,16 +113,6 @@ Alors que la neige recouvre le paysage d’un voile immaculé, la vérité, elle
         <img src="Cover.png" alt="Couverture du livre de D.R. Horizons" class="book-cover">
         <p>Bientôt disponible. Plongez dans une œuvre captivante et hors du commun.</p>
         <a href="https://www.amazon.com/dp/votre_livre" class="big-button">Acheter sur Amazon</a>
-        
-        <h3>Notez ce livre :</h3>
-        <div class="stars" aria-label="Notation par étoiles">
-            <span class="star" data-value="1" aria-label="1 étoile">★</span>
-            <span class="star" data-value="2" aria-label="2 étoiles">★</span>
-            <span class="star" data-value="3" aria-label="3 étoiles">★</span>
-            <span class="star" data-value="4" aria-label="4 étoiles">★</span>
-            <span class="star" data-value="5" aria-label="5 étoiles">★</span>
-        </div>
-        <p id="rating-feedback" aria-live="polite"></p>
     </section>
     
     <section class="section" id="about">
@@ -134,40 +125,22 @@ Alors que la neige recouvre le paysage d’un voile immaculé, la vérité, elle
         <form id="contact-form">
             <label for="name">Nom :</label>
             <input type="text" id="name" name="name" required>
-            
-
             <label for="email">Email :</label>
             <input type="email" id="email" name="email" required>
-            
-
             <label for="message">Message :</label>
             <textarea id="message" name="message" rows="4" required></textarea>
-
             <button type="submit" class="big-button">Envoyer</button>
         </form>
     </section>
     
     <section class="section" id="don">
         <h2>Soutenez mon écriture</h2>
-        <p>Votre soutien me permet de continuer à écrire et à publier des œuvres qui sortent des sentiers battus. </p>
+        <p>Votre soutien me permet de continuer à écrire et à publier des œuvres qui sortent des sentiers battus.</p>
         <a href="https://paypal.me/DRHorizons?country.x=CA&locale.x=fr_CA" class="big-button">Faire un don</a>
     </section>
     
     <footer>
         © 2025 D.R. Horizons - Un écrivain hors limites
     </footer>
-
-    <script>
-        document.querySelectorAll('.star').forEach(star => {
-            star.addEventListener('click', function() {
-                let value = this.getAttribute('data-value');
-                document.querySelectorAll('.star').forEach(s => s.style.color = '#ccc');
-                for (let i = 0; i < value; i++) {
-                    document.querySelectorAll('.star')[i].style.color = 'gold';
-                }
-                document.getElementById('rating-feedback').textContent = 'Merci pour votre note : ' + value + ' étoiles !';
-            });
-        });
-    </script>
 </body>
 </html>
