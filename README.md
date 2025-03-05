@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>D.R. Horizon - Auteur de Thrillers Psychologiques</title>
+    <title>D.R. Horizons - Auteur de Thrillers Psychologiques</title>
     <meta name="description" content="Découvrez l'univers mystérieux et captivant de D.R. Horizon, écrivain de thrillers psychologiques et de récits réalistes aux confins du rêve et de l'inconnu. Rejoignez un cercle d'initiés et soutenez son œuvre littéraire." />
     <style>
         body {
@@ -89,7 +89,7 @@
     </section>
     
     <footer>
-        © 2025 D.R. Horizon - Un écrivain hors du système
+        © 2025 D.R. Horizons - Un écrivain hors du système
     </footer>
 </body>
 </html>
