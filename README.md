@@ -65,7 +65,7 @@
     
     <section class="section" id="about">
         <h2>À propos</h2>
-        <img src="photo.jpg" alt="Photo de D.R. Horizon" class="photo">
+        <img src="photo.jpeg" alt="Photo de D.R. Horizon" class="photo">
         <p>D.R. Horizon écrit des récits où l’ombre et la lumière s’entrelacent, où le doute et le rêve façonnent une réalité troublante. Son premier thriller psychologique vous entraînera dans une quête intérieure et universelle.</p>
     </section>
     
