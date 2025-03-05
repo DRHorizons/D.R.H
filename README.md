@@ -1,5 +1,3 @@
-
-    
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -110,6 +108,3 @@ Merci infiniment pour votre soutien !
 </p>
         <a href="https://paypal.me/DRHorizons?country.x=CA&locale.x=fr_CA" class="big-button">Faire un don</a>
     </section>
-    
-   
-
