@@ -78,7 +78,7 @@
     
     <section class="section" id="oeuvres">
         <h2>Mon premier livre</h2>
-        <img src="cover.jpg" alt="Couverture du livre" class="book-cover">
+        <img src="Cover.png" alt="Couverture du livre" class="book-cover">
         <p>Bientôt disponible. Plongez dans une œuvre captivante et hors du commun.</p>
         <a href="https://www.amazon.com/dp/votre_livre" class="button">Acheter sur Amazon</a>
     </section>
