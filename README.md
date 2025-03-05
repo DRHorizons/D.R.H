@@ -1,4 +1,3 @@
-
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
@@ -37,6 +36,9 @@
             margin: 0 15px;
             font-size: 18px;
         }
+        nav a:hover {
+            text-decoration: underline;
+        }
         .section {
             padding: 50px 20px;
             max-width: 800px;
@@ -53,7 +55,8 @@
             transition: 0.3s;
         }
         .button:hover {
-            background-color: #666;
+            background-color: #ff8c00;
+            transition: 0.3s ease-in-out;
         }
         .photo, .book-cover {
             width: 200px;
@@ -70,8 +73,13 @@
             font-size: 30px;
             cursor: pointer;
             color: #ccc;
+            transition: 0.2s;
         }
-        .star:hover, .star.active {
+        .star:hover {
+            transform: scale(1.2);
+            color: gold;
+        }
+        .star.active {
             color: gold;
         }
         footer {
@@ -79,6 +87,15 @@
             padding: 15px;
             font-size: 14px;
             margin-top: 50px;
+        }
+        @media (max-width: 600px) {
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+            .photo {
+                width: 150px;
+            }
         }
     </style>
 </head>
@@ -97,33 +114,31 @@
     
     <section class="section" id="oeuvres">
         <h1>Mon premier livre</h1>
-        <p>Après des vacances paradisiaques au Mexique, Chloé et Madison, deux amies inséparables, rentrent à Montréal, prêtes à reprendre leur routine. Mais une rencontre inattendue va bouleverser le cours des choses. Charles, un homme charismatique et mystérieux, croise le chemin de Chloé et l’invite à passer un week-end dans son vaste domaine enneigé du Vermont.
+        <p>Après des vacances paradisiaques au Mexique, Chloé et Madison, deux amies inséparables, rentrent à Montréal, prêtes à reprendre leur routine. Mais une rencontre inattendue va bouleverser le cours des choses. Charles, un homme charismatique et mystérieux, croise le chemin de Chloé et l’invite à passer un week-end dans son vaste domaine enneigé du Vermont.</p>
 
-D’abord hésitante, Chloé accepte finalement l’invitation, rassurée par la présence de Madison et de son copain Kevin. Très vite, le trio se retrouve immergé dans un décor somptueux, entre le manoir imposant et un chalet plus intime, perdu en pleine nature. Charles, hôte attentif et raffiné, les accueille avec une générosité presque trop parfaite. Luxe, dîners élaborés, moments sous les étoiles… tout semble trop beau pour être vrai.
+        <p>D’abord hésitante, Chloé accepte finalement l’invitation, rassurée par la présence de Madison et de son copain Kevin. Très vite, le trio se retrouve immergé dans un décor somptueux, entre le manoir imposant et un chalet plus intime, perdu en pleine nature. Charles, hôte attentif et raffiné, les accueille avec une générosité presque trop parfaite. Luxe, dîners élaborés, moments sous les étoiles… tout semble trop beau pour être vrai.</p>
 
-Mais alors que la nuit s’installe et que les ombres du passé refont surface, une tension étrange s’insinue dans l’atmosphère feutrée du chalet. Des regards appuyés, des silences lourds, des détails qui ne collent pas… Chloé commence à se demander si elle a eu raison d’accepter cette invitation. Que cache réellement Charles derrière son sourire énigmatique et ses attentions presque obsessionnelles ?
+        <p>Mais alors que la nuit s’installe et que les ombres du passé refont surface, une tension étrange s’insinue dans l’atmosphère feutrée du chalet. Des regards appuyés, des silences lourds, des détails qui ne collent pas… Chloé commence à se demander si elle a eu raison d’accepter cette invitation. Que cache réellement Charles derrière son sourire énigmatique et ses attentions presque obsessionnelles ?</p>
 
-Alors que la neige recouvre le paysage d’un voile immaculé, la vérité, elle, s’apprête à éclater… et elle pourrait bien être plus glaçante que l’hiver lui-même.</p>
+        <p>Alors que la neige recouvre le paysage d’un voile immaculé, la vérité, elle, s’apprête à éclater… et elle pourrait bien être plus glaçante que l’hiver lui-même.</p>
+
         <img src="Cover.png" alt="Couverture du livre" class="book-cover">
         <p>Bientôt disponible. Plongez dans une œuvre captivante et hors du commun.</p>
         <a href="https://www.amazon.com/dp/votre_livre" class="button">Acheter sur Amazon</a>
+        
         <h3>Notez ce livre :</h3>
         <div class="stars">
-            <span class="star" data-value="1">★</span>
-            <span class="star" data-value="2">★</span>
-            <span class="star" data-value="3">★</span>
-            <span class="star" data-value="4">★</span>
-            <span class="star" data-value="5">★</span>
+            <span class="star" data-value="1" aria-label="1 étoile">★</span>
+            <span class="star" data-value="2" aria-label="2 étoiles">★</span>
+            <span class="star" data-value="3" aria-label="3 étoiles">★</span>
+            <span class="star" data-value="4" aria-label="4 étoiles">★</span>
+            <span class="star" data-value="5" aria-label="5 étoiles">★</span>
         </div>
     </section>
     
     <section class="section" id="about">
         <h2>À propos</h2>
-        <p>D.R. Horizons est un conteur passionné par les atmosphères envoûtantes et les récits à suspense où chaque détail compte. À travers une écriture fluide et immersive, il entraîne ses lecteurs dans des univers où le mystère côtoie l’émotion, et où les apparences sont souvent trompeuses.
-
-Inspiré par les relations humaines et les secrets enfouis, D.R. Horizons aime explorer la psychologie de ses personnages, tissant des intrigues captivantes où tension et intensité se mêlent avec finesse. Le Chalet des oubliés en est un parfait exemple : un thriller glaçant qui plonge le lecteur dans un huis clos enneigé, entre fascination et danger.
-
-Lorsqu’il n’écrit pas, D.R. Horizons puise son inspiration dans les voyages, la nature et ces moments suspendus où tout peut basculer…</p>
+        <p>D.R. Horizons est un conteur passionné par les atmosphères envoûtantes et les récits à suspense où chaque détail compte. À travers une écriture fluide et immersive, il entraîne ses lecteurs dans des univers où le mystère côtoie l’émotion, et où les apparences sont souvent trompeuses.</p>
     </section>
     
     <section class="section" id="contact">
@@ -143,19 +158,24 @@ Lorsqu’il n’écrit pas, D.R. Horizons puise son inspiration dans les voyages
     </footer>
 
     <script>
-        const stars = document.querySelectorAll('.star');
-        stars.forEach(star => {
-            star.addEventListener('click', function() {
-                stars.forEach(s => s.classList.remove('active'));
-                this.classList.add('active');
-                let value = this.getAttribute('data-value');
-                alert('Merci pour votre note : ' + value + ' étoiles !');
+        document.addEventListener("DOMContentLoaded", function() {
+            const stars = document.querySelectorAll('.star');
+            const savedRating = localStorage.getItem("userRating");
+
+            if (savedRating) {
+                stars[savedRating - 1].classList.add("active");
+            }
+
+            stars.forEach(star => {
+                star.addEventListener('click', function() {
+                    stars.forEach(s => s.classList.remove('active'));
+                    this.classList.add('active');
+                    let value = this.getAttribute('data-value');
+                    localStorage.setItem("userRating", value);
+                    alert('Merci pour votre note : ' + value + ' étoiles !');
+                });
             });
         });
     </script>
-</body>
-</html>
-
-
 </body>
 </html>
