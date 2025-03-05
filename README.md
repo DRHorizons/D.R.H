@@ -54,7 +54,7 @@
 </head>
 <body>
     <header>
-        D.R. Horizon - Au-delà du réel
+        D.R. Horizon - Aux limites du réel
     </header>
     
     <section class="section">
@@ -79,7 +79,7 @@
         <h2>Contact & Soutien</h2>
         <p>Votre avis compte. Écrivez-moi, partagez vos impressions, et soutenez mon travail.</p>
         <p><a href="mailto:contact@drhorizon.com">Envoyer un message</a></p>
-        <p><a href="#don" class="button">Faire un don</a></p>
+        <p><a href="#don" class="button">Écrivez-moi</a></p>
     </section>
     
     <section class="section" id="don">
