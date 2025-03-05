@@ -59,7 +59,7 @@
     
     <section class="section">
         <h2>Bienvenue</h2>
-        <p>Plongez dans un univers où le réalisme croise le mystère, où chaque mot vous rapproche d’une vérité cachée.</p>
+        <p>Découvrez un monde où le réalisme flirte avec le mystère, et où chaque mot révèle une vérité enfouie..</p>
         <a href="#oeuvres" class="button">Découvrir mon premier livre</a>
     </section>
     
@@ -93,4 +93,4 @@
     </footer>
 </body>
 </html>
-# site
+
