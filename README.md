@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
@@ -89,7 +89,7 @@
 <body>
     <header>
         <img src="photo.jpeg" alt="Portrait de l'écrivain D.R. Horizons" class="photo">
-        <span>Aux frontières du réel</span>
+    
     </header>
 
     <nav>
@@ -134,9 +134,11 @@ Alors que la neige recouvre le paysage d’un voile immaculé, la vérité, elle
         <form id="contact-form">
             <label for="name">Nom :</label>
             <input type="text" id="name" name="name" required>
+            
 
             <label for="email">Email :</label>
             <input type="email" id="email" name="email" required>
+            
 
             <label for="message">Message :</label>
             <textarea id="message" name="message" rows="4" required></textarea>
@@ -147,7 +149,7 @@ Alors que la neige recouvre le paysage d’un voile immaculé, la vérité, elle
     
     <section class="section" id="don">
         <h2>Soutenez mon écriture</h2>
-        <p>Votre soutien me permet de continuer à écrire...</p>
+        <p>Votre soutien me permet de continuer à écrire et à publier des œuvres qui sortent des sentiers battus. </p>
         <a href="https://paypal.me/DRHorizons?country.x=CA&locale.x=fr_CA" class="big-button">Faire un don</a>
     </section>
     
