@@ -130,7 +130,7 @@ Alors que la neige recouvre le paysage d’un voile immaculé, la vérité, elle
     </section>
     
     <section class="section" id="contact">
-        <h2>Contact & Soutien</h2>
+        <h2>Contact</h2>
         <form id="contact-form">
             <label for="name">Nom :</label>
             <input type="text" id="name" name="name" required>
