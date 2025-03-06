@@ -33,7 +33,8 @@
         <a href="#oeuvres">Oeuvres</a>
         <a href="#contact">Contact</a>
         <a href="#don">Soutenir</a>
-        <a href="#don">Blog</a>
+        <a href="blog.html">Blog</a>
+
     </nav>
     <section class="section" id="oeuvres">
         <h1>Mon premier livre</h1>
