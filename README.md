@@ -14,18 +14,27 @@
         nav a:hover { color: #ff8c00; }
         .big-button { display: inline-block; background-color: #ff8c00; color: white; padding: 15px 30px; font-size: 18px; text-decoration: none; font-weight: bold; border-radius: 5px; margin: 15px 0; transition: background 0.3s; }
         .big-button:hover { background-color: #e07b00; }
-        .rating-container { margin: 20px auto; text-align: center; }
-        .rating { display: flex; justify-content: center; cursor: pointer; }
-        .star { font-size: 25px; color: #ff8c00; cursor: pointer; }
-        .rating-comment { margin-top: 10px; }
-        .rating-summary { font-size: 18px; font-weight: bold; margin-top: 15px; }
-        .small-button { padding: 10px 20px; font-size: 14px; }
+        .bio-container { display: flex; align-items: center; justify-content: center; margin: 40px auto; max-width: 900px; text-align: left; }
+        .photo { width: 250px; border-radius: 10px; margin-right: 30px; }
+        .bio-text { font-family: 'Dancing Script', cursive; font-size: 22px; font-style: italic; max-width: 500px; }
+        .bio-text::before { content: '"'; font-size: 30px; color: #ff8c00; }
+        .bio-text::after { content: '"'; font-size: 30px; color: #ff8c00; }
     </style>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <nav>
+        <a href="#">Accueil</a>
+        <a href="#">À propos</a>
+        <a href="#">Œuvres</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="bio-container">
         <img src="photo.jpeg" alt="Portrait de l'écrivain D.R. Horizons" class="photo">
-    </header>
+        <p class="bio-text">
+            D.R. Horizons est un explorateur de l’imaginaire, un conteur aux mille facettes, porté par une soif d’aventure et une curiosité insatiable pour l’âme humaine. Écrivain atypique, il puise dans sa liberté de pensée et son goût pour la psychologie pour tisser des récits où le mystère flirte avec l’émotion, et où chaque détail a son importance. Installé à Montréal, une ville vibrante qui cultive l’ouverture d’esprit et la diversité des idées, il trouve dans ses rues, ses contrastes et son énergie créative une source d’inspiration inépuisable. L’écriture est pour lui une passion, un espace où il donne libre cours à son imagination débordante, façonnant des univers envoûtants où rien n’est jamais tout à fait ce qu’il semble être.
+        </p>
+    </div>
     <nav>
         <a href="#oeuvres">Mon Livre</a>
         <a href="#about">À propos</a>
