@@ -53,18 +53,40 @@ Alors que la neige recouvre le paysage d’un voile immaculé, la vérité, elle
                 <span class="star" data-value="5">☆</span>
             </div>
             <textarea id="rating-comment" class="rating-comment" rows="2" placeholder="Laissez un court commentaire..."></textarea>
-            <button onclick="submitRating()">Envoyer</button>
-            <div class="rating-summary" id="rating-summary">Moyenne des avis : 4.2 ★</div>
-        </div>
-        <a href="https://www.amazon.com/dp/votre_livre" class="big-button">Acheter sur Amazon</a>
-    
-    </section>
+             <button onclick="submitRating()">Envoyer</button>
+
+    <h3>Meilleurs commentaires 5 étoiles :</h3>
+    <div id="top-comments"></div>
+
     <script>
+        let bestComments = [];
+
         function submitRating() {
             let selectedStars = document.querySelectorAll('.star.selected').length;
             let comment = document.getElementById('rating-comment').value;
+
+            if (!comment.trim()) {
+                alert("Veuillez écrire un commentaire.");
+                return;
+            }
+
             alert('Merci pour votre note de ' + selectedStars + ' étoiles.\nVotre commentaire : ' + comment);
+
+            if (selectedStars === 5) {
+                bestComments.push(comment);
+                updateTopComments();
+            }
+
+            document.getElementById('rating-comment').value = "";
         }
+
+        function updateTopComments() {
+            let commentsDiv = document.getElementById("top-comments");
+            commentsDiv.innerHTML = bestComments.slice(-3) // Garde les 3 derniers
+                .map(c => `<p class="italic">(${c})</p>`)
+                .join("");
+        }
+
         document.querySelectorAll('.star').forEach(star => {
             star.addEventListener('click', function() {
                 let value = this.getAttribute('data-value');
