@@ -30,7 +30,7 @@
         </p>
     </div>
     <nav>
-        <a href="#oeuvres">Mon Livre</a>
+        <a href="#oeuvres">Oeuvres</a>
         <a href="#contact">Contact</a>
         <a href="#don">Soutenir</a>
     </nav>
@@ -45,7 +45,7 @@ Mais alors que la nuit s’installe et que les ombres du passé refont surface, 
 Alors que la neige recouvre le paysage d’un voile immaculé, la vérité, elle, s’apprête à éclater… et elle pourrait bien être plus glaçante que l’hiver lui-même.
 </p>
         <img src="Cover.png" alt="Couverture du livre de D.R. Horizons" class="book-cover">
-        <p>Bientôt disponible. Plongez dans une œuvre captivante et hors du commun.</p>
+        <p>Plongez dans une œuvre captivante et hors du commun.</p>
        <title>Notation</title>
     <style>
         .rating-container {
@@ -259,4 +259,4 @@ Merci infiniment pour votre soutien ! ❤️📚
     <footer>
         <p>&copy; 2025 - Tous droits réservés.</p>
     </footer>
-</body>
+
