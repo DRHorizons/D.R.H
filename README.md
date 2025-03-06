@@ -31,7 +31,7 @@
         <p class="bio-text">
             D.R. Horizons est un explorateur de l’imaginaire, un conteur aux mille facettes, porté par une soif d’aventure et une curiosité insatiable pour l’âme humaine. Écrivain atypique, il puise dans sa liberté de pensée et son goût pour la psychologie pour tisser des récits où le mystère flirte avec l’émotion, et où chaque détail a son importance. 
             <br>
-            Installé à Montréal, une ville vibrante qui cultive l’ouverture d’esprit et la diversité des idées, il trouve dans ses rues, ses contrastes et son énergie créative une source d’inspiration inépuisable. 
+            Installé à Montréal, une ville vibrante qui cultive l’ouverture d’esprit et la diversité des idées, il trouve dans ses rues et son énergie créative une source d’inspiration inépuisable. 
         </p>
     </div>
     <nav>
@@ -48,14 +48,14 @@
             text-align: justify;
         }
     </style>
-        <p>Après des vacances paradisiaques au Mexique, Chloé et Madison, deux amies inséparables, rentrent à Montréal, prêtes à reprendre leur routine. Mais une rencontre inattendue va bouleverser le cours des choses. Charles, un homme charismatique et mystérieux, croise le chemin de Chloé et l’invite à passer un week-end dans son vaste domaine enneigé du Vermont.
+        <p>Après des vacances paradisiaques au Mexique, Chloé et Madison, deux amies inséparables, rentrent à Montréal, prêtes à reprendre leur routine. Mais une rencontre inattendue va bouleverser le cours des choses. Charles, un homme charismatique et mystérieux, croise le chemin de Chloé et l’invite à passer un week-end dans son vaste domaine enneigé du Vermont.</p>
         <br>
 
-D’abord hésitante, Chloé accepte finalement l’invitation, rassurée par la présence de Madison et de son copain Kevin. Très vite, le trio se retrouve immergé dans un décor somptueux, entre le manoir imposant et un chalet plus intime, perdu en pleine nature. Charles, hôte attentif et raffiné, les accueille avec une générosité presque trop parfaite. Luxe, dîners élaborés, moments sous les étoiles… tout semble trop beau pour être vrai.
+<p>D’abord hésitante, Chloé accepte finalement l’invitation, rassurée par la présence de Madison et de son copain Kevin. Très vite, le trio se retrouve immergé dans un décor somptueux, entre le manoir imposant et un chalet plus intime, perdu en pleine nature. Charles, hôte attentif et raffiné, les accueille avec une générosité presque trop parfaite. Luxe, dîners élaborés, moments sous les étoiles… tout semble trop beau pour être vrai.</p>
 <br>
-Mais alors que la nuit s’installe et que les ombres du passé refont surface, une tension étrange s’insinue dans l’atmosphère feutrée du chalet. Des regards appuyés, des silences lourds, des détails qui ne collent pas… 
+<p>Mais alors que la nuit s’installe et que les ombres du passé refont surface, une tension étrange s’insinue dans l’atmosphère feutrée du chalet. </p>
 <br>
-Alors que la neige recouvre le paysage d’un voile immaculé, la vérité, elle, s’apprête à éclater… et elle pourrait bien être plus glaçante que l’hiver lui-même.
+<p>Alors que la neige recouvre le paysage d’un voile immaculé, la vérité, elle, s’apprête à éclater… et elle pourrait bien être plus glaçante que l’hiver lui-même.</p>
 </p>
         <img src="Cover.png" alt="Couverture du livre de D.R. Horizons" class="book-cover">
         <p>Plongez dans une œuvre captivante et hors du commun.</p>
@@ -359,16 +359,16 @@ Alors que la neige recouvre le paysage d’un voile immaculé, la vérité, elle
         }
     </style>
         <p> ✨
-Écrire, c’est explorer, donner naissance à des mondes où le mystère, l’émotion et l’inattendu se rencontrent. Mon imagination déborde de projets – romans, récits captivants, et même des scénarios prêts à être portés à l’écran. Mais pour leur donner l’espace qu’ils méritent, j’ai besoin de votre soutien.
+Écrire, c’est explorer, donner naissance à des mondes où le mystère, l’émotion et l’inattendu se rencontrent. Mon imagination déborde de projets – romans, récits captivants, et même des scénarios prêts à être portés à l’écran. Mais pour leur donner l’espace qu’ils méritent, j’ai besoin de votre soutien.</p>
 <br>
 
-Chaque contribution est une impulsion précieuse qui me permet de me consacrer pleinement à l’écriture, de publier plus régulièrement et de partager avec vous des histoires qui sortent des sentiers battus.
+<p>Chaque contribution est une impulsion précieuse qui me permet de me consacrer pleinement à l’écriture, de publier plus régulièrement et de partager avec vous des histoires qui sortent des sentiers battus.</p>
 <br>
-🎁 En guise de remerciement, vous aurez accès à des contenus exclusifs. 
+<p>🎁 En guise de remerciement, vous aurez accès à des contenus exclusifs. </p>
 <br>
-Si vous croyez en l’importance des récits qui transportent et questionnent, embarquez avec moi dans cette aventure littéraire et cinématographique.
+<p>Si vous croyez en l’importance des récits qui transportent et questionnent, embarquez avec moi dans cette aventure littéraire et cinématographique.</p>
 <br>
-Merci infiniment pour votre soutien ! ❤️📚
+<p>Merci infiniment pour votre soutien ! ❤️📚
 </p>
         <a href="https://paypal.me/DRHorizons?country.x=CA&locale.x=fr_CA" class="big-button">Faire un don</a>
   <section id="english">
