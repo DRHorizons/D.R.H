@@ -143,7 +143,7 @@ Alors que la neige recouvre le paysage d’un voile immaculé, la vérité, elle
 
 Chaque contribution est une impulsion précieuse qui me permet de me consacrer pleinement à l’écriture, de publier plus régulièrement et de partager avec vous des histoires qui sortent des sentiers battus.
 
-🎁 En guise de remerciement, vous aurez accès à des contenus exclusifs 
+🎁 En guise de remerciement, vous aurez accès à des contenus exclusifs. 
 
 Si vous croyez en l’importance des récits qui transportent et questionnent, embarquez avec moi dans cette aventure littéraire et cinématographique.
 
