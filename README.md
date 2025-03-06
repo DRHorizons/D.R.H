@@ -31,6 +31,7 @@
         <a href="#about">À propos</a>
         <a href="#contact">Contact</a>
         <a href="#don">Soutenir</a>
+        <a href="#english">English</a>
     </nav>
     <section class="section" id="oeuvres">
         <h1>Mon premier livre</h1>
@@ -150,5 +151,12 @@ Si vous croyez en l’importance des récits qui transportent et questionnent, e
 Merci infiniment pour votre soutien ! ❤️📚
 </p>
         <a href="https://paypal.me/DRHorizons?country.x=CA&locale.x=fr_CA" class="big-button">Faire un don</a>
+  <section id="english">
+        <h2>English Section</h2>
+        <p>Paste your English content here.</p>
     </section>
+
+    <footer>
+        <p>&copy; 2025 - Tous droits réservés.</p>
+    </footer>
 </body>
