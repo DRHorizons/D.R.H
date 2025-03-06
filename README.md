@@ -100,14 +100,17 @@ Alors que la neige recouvre le paysage d’un voile immaculé, la vérité, elle
     </section>
     
     <section class="section" id="don">
-        <h2>Soutenez mon écriture</h2>
-        <p>Écrire, c’est explorer, c’est donner vie à des mondes où le mystère, l’émotion et l’inattendu se rencontrent. Mon imagination déborde de projets – romans, récits captivants, et même des scénarios prêts à être portés à l’écran. Mais le temps me manque, partagé entre ma passion et mes obligations professionnelles.
+        <h2>Donnez vie à mes histoires</h2>
+        <p> ✨
+Écrire, c’est explorer, donner naissance à des mondes où le mystère, l’émotion et l’inattendu se rencontrent. Mon imagination déborde de projets – romans, récits captivants, et même des scénarios prêts à être portés à l’écran. Mais pour leur donner l’espace qu’ils méritent, j’ai besoin de votre soutien.
 
-Aujourd’hui, j’aimerais franchir un cap : me consacrer pleinement à l’écriture, donner à mes histoires l’espace qu’elles méritent, et peut-être même les voir prendre vie au cinéma. Votre soutien est bien plus qu’une aide financière : c’est un souffle, une impulsion qui me permet de continuer à créer, à publier, et à vous proposer des œuvres qui sortent des sentiers battus.
+Chaque contribution est une impulsion précieuse qui me permet de me consacrer pleinement à l’écriture, de publier plus régulièrement et de partager avec vous des histoires qui sortent des sentiers battus.
 
-Si vous croyez en l’importance des récits qui transportent et questionnent, alors embarquez avec moi dans cette aventure littéraire et cinématographique. Chaque contribution est une pierre ajoutée à cet édifice d’imaginaire que nous bâtissons ensemble.
+🎁 En guise de remerciement, vous aurez accès à des contenus exclusifs 
 
-Merci infiniment pour votre soutien ! 
+Si vous croyez en l’importance des récits qui transportent et questionnent, embarquez avec moi dans cette aventure littéraire et cinématographique.
+
+Merci infiniment pour votre soutien ! ❤️📚
 </p>
         <a href="https://paypal.me/DRHorizons?country.x=CA&locale.x=fr_CA" class="big-button">Faire un don</a>
     </section>
