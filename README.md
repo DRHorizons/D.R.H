@@ -57,18 +57,7 @@ Alors que la neige recouvre le paysage d’un voile immaculé, la vérité, elle
             <div class="rating-summary" id="rating-summary">Moyenne des avis : 4.2 ★</div>
         </div>
         <a href="https://www.amazon.com/dp/votre_livre" class="big-button">Acheter sur Amazon</a>
-    </section>
-    <section class="section" id="contact">
-        <h2>Contact</h2>
-        <form id="contact-form">
-            <label for="name">Nom :</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Email :</label>
-            <input type="email" id="email" name="email" required>
-            <label for="message">Message :</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
-            <button type="submit" class="big-button small-button">Envoyer</button>
-        </form>
+    
     </section>
     <script>
         function submitRating() {
