@@ -39,7 +39,7 @@
         <a href="#contact">Contact</a>
         <a href="#don">Soutenir</a>
         <a href="blog.html">Blog</a>
-
+        <a href="en.html">English</a>
     </nav>
     <section class="section" id="oeuvres">
         <h1>Mon premier livre</h1>
