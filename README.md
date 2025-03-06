@@ -88,26 +88,10 @@ Alors que la neige recouvre le paysage d’un voile immaculé, la vérité, elle
     </script>
 </body>
 </html>
-        </div>
         
-        <a href="https://www.amazon.com/dp/votre_livre" class="big-button">Acheter sur Amazon</a>
-   <section class="section" id="about">
         <h2>À propos</h2>
         <p>D.R. Horizons est un explorateur de l’imaginaire, un conteur aux mille facettes, porté par une soif d’aventure et une curiosité insatiable pour l’âme humaine. Écrivain atypique, il puise dans sa liberté de pensée et son goût pour la psychologie pour tisser des récits où le mystère flirte avec l’émotion, et où chaque détail a son importance. Installé à Montréal, une ville vibrante qui cultive l’ouverture d’esprit et la diversité des idées, il trouve dans ses rues, ses contrastes et son énergie créative une source d’inspiration inépuisable. L’écriture est pour lui une passion, un espace où il donne libre cours à son imagination débordante, façonnant des univers envoûtants où rien n’est jamais tout à fait ce qu’il semble être. </p>
-
-    <section class="section" id="contact">
-        <h2>Contact</h2>
-        <form id="contact-form">
-            <label for="name">Nom :</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Email :</label>
-            <input type="email" id="email" name="email" required>
-            <label for="message">Message :</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
-            <button type="submit" class="big-button">Envoyer</button>
-        </form>
-    </section>
-    
+   
     <section class="section" id="don">
         <h2>Soutenez mon écriture</h2>
         <p>Écrire, c’est explorer, c’est donner vie à des mondes où le mystère, l’émotion et l’inattendu se rencontrent. Mon imagination déborde de projets – romans, récits captivants, et même des scénarios prêts à être portés à l’écran. Mais le temps me manque, partagé entre ma passion et mes obligations professionnelles.
@@ -120,4 +104,4 @@ Merci infiniment pour votre soutien !
 </p>
         <a href="https://paypal.me/DRHorizons?country.x=CA&locale.x=fr_CA" class="big-button">Faire un don</a>
     </section>
-</body>
+
