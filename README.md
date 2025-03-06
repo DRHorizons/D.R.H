@@ -45,59 +45,73 @@ Alors que la neige recouvre le paysage d’un voile immaculé, la vérité, elle
         <img src="Cover.png" alt="Couverture du livre de D.R. Horizons" class="book-cover">
         <p>Bientôt disponible. Plongez dans une œuvre captivante et hors du commun.</p>
         <div class="rating-container">
-            <div class="rating" id="rating-stars">
-                <span class="star" data-value="1">★</span>
-                <span class="star" data-value="2">★</span>
-                <span class="star" data-value="3">★</span>
-                <span class="star" data-value="4">★</span>
-                <span class="star" data-value="5">☆</span>
-            </div>
-<p>Moyenne des évaluations : <span id="average-rating">0</span>/5</p>
-<textarea id="rating-comment" class="rating-comment" rows="2" placeholder="Laissez un court commentaire..."></textarea>
-<button onclick="submitRating()">Envoyer</button>
+    <div class="rating" id="rating-stars">
+        <span class="star" data-value="1">★</span>
+        <span class="star" data-value="2">★</span>
+        <span class="star" data-value="3">★</span>
+        <span class="star" data-value="4">★</span>
+        <span class="star" data-value="5">☆</span>
+    </div>
+    <p>Moyenne des évaluations : <span id="average-rating">0</span>/5</p>
+    <textarea id="rating-comment" class="rating-comment" rows="2" placeholder="Laissez un court commentaire..."></textarea>
+    <button onclick="submitRating()">Envoyer</button>
 
     <h3>Meilleurs commentaires :</h3>
     <div id="top-comments"></div>
+</div>
 
-    <script>
-        let bestComments = [];
+<script>
+    let ratings = JSON.parse(localStorage.getItem("ratings")) || [];
+    let bestComments = JSON.parse(localStorage.getItem("bestComments")) || [];
 
-        function submitRating() {
-            let selectedStars = document.querySelectorAll('.star.selected').length;
-            let comment = document.getElementById('rating-comment').value;
+    function submitRating() {
+        let selectedStars = document.querySelectorAll('.star.selected').length;
+        let comment = document.getElementById('rating-comment').value.trim();
 
-            if (!comment.trim()) {
-                alert("Veuillez écrire un commentaire.");
-                return;
-            }
-
-            alert('Merci pour votre note de ' + selectedStars + ' étoiles.\nVotre commentaire : ' + comment);
-
-            if (selectedStars === 5) {
-                bestComments.push(comment);
-                updateTopComments();
-            }
-
-            document.getElementById('rating-comment').value = "";
+        if (!comment) {
+            alert("Veuillez écrire un commentaire.");
+            return;
         }
 
-        function updateTopComments() {
-            let commentsDiv = document.getElementById("top-comments");
-            commentsDiv.innerHTML = bestComments.slice(-3) // Garde les 3 derniers
-                .map(c => `<p class="italic">(${c})</p>`)
-                .join("");
+        ratings.push(selectedStars);
+        localStorage.setItem("ratings", JSON.stringify(ratings));
+        updateAverageRating();
+
+        if (selectedStars >= 4) {
+            bestComments.push(comment);
+            if (bestComments.length > 3) bestComments = bestComments.slice(-3);
+            localStorage.setItem("bestComments", JSON.stringify(bestComments));
+            updateTopComments();
         }
 
-        document.querySelectorAll('.star').forEach(star => {
-            star.addEventListener('click', function() {
-                let value = this.getAttribute('data-value');
-                document.querySelectorAll('.star').forEach(s => {
-                    s.textContent = s.getAttribute('data-value') <= value ? '★' : '☆';
-                    s.classList.toggle('selected', s.getAttribute('data-value') <= value);
-                });
+        document.getElementById('rating-comment').value = "";
+    }
+
+    function updateAverageRating() {
+        let sum = ratings.reduce((a, b) => a + b, 0);
+        let average = ratings.length ? (sum / ratings.length).toFixed(1) : 0;
+        document.getElementById("average-rating").textContent = average;
+    }
+
+    function updateTopComments() {
+        let commentsDiv = document.getElementById("top-comments");
+        commentsDiv.innerHTML = bestComments.map(c => `<p class="italic">“${c}”</p>`).join("");
+    }
+
+    document.querySelectorAll('.star').forEach(star => {
+        star.addEventListener('click', function() {
+            let value = this.getAttribute('data-value');
+            document.querySelectorAll('.star').forEach(s => {
+                s.textContent = s.getAttribute('data-value') <= value ? '★' : '☆';
+                s.classList.toggle('selected', s.getAttribute('data-value') <= value);
             });
         });
-    </script>
+    });
+
+    // Mettre à jour les valeurs au chargement
+    updateAverageRating();
+    updateTopComments();
+</script>
 <section class="section" id="about">
         <h2>À propos</h2>
         <p>D.R. Horizons est un explorateur de l’imaginaire, un conteur aux mille facettes, porté par une soif d’aventure et une curiosité insatiable pour l’âme humaine. Écrivain atypique, il puise dans sa liberté de pensée et son goût pour la psychologie pour tisser des récits où le mystère flirte avec l’émotion, et où chaque détail a son importance. Installé à Montréal, une ville vibrante qui cultive l’ouverture d’esprit et la diversité des idées, il trouve dans ses rues, ses contrastes et son énergie créative une source d’inspiration inépuisable. L’écriture est pour lui une passion, un espace où il donne libre cours à son imagination débordante, façonnant des univers envoûtants où rien n’est jamais tout à fait ce qu’il semble être. </p>
