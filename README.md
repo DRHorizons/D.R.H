@@ -8,6 +8,9 @@
     <meta name="keywords" content="Thriller psychologique, Roman Thriller, Thriller au Vermont, Chalet des oubliés, Roman Chalet, Roman séquestration, Suspense intense, Roman à suspense, Mystère psychologique, Thème de la domination">
     <link rel="stylesheet" href="styles.css">
     <style>
+        .justifie {
+            text-align: justify;
+        }
         body { font-family: Arial, sans-serif; margin: 0; padding: 0; text-align: center; }
         nav { background: #222; padding: 15px; }
         nav a { color: white; text-decoration: none; font-size: 20px; margin: 0 20px; font-weight: bold; transition: color 0.3s ease; }
@@ -40,6 +43,11 @@
     </nav>
     <section class="section" id="oeuvres">
         <h1>Mon premier livre</h1>
+        <style>
+        .justifie {
+            text-align: justify;
+        }
+    </style>
         <p>Après des vacances paradisiaques au Mexique, Chloé et Madison, deux amies inséparables, rentrent à Montréal, prêtes à reprendre leur routine. Mais une rencontre inattendue va bouleverser le cours des choses. Charles, un homme charismatique et mystérieux, croise le chemin de Chloé et l’invite à passer un week-end dans son vaste domaine enneigé du Vermont.
         <br>
 
@@ -345,6 +353,11 @@ Alors que la neige recouvre le paysage d’un voile immaculé, la vérité, elle
     
     <section class="section" id="don">
         <h2>Donnez vie à mes histoires</h2>
+        <style>
+        .justifie {
+            text-align: justify;
+        }
+    </style>
         <p> ✨
 Écrire, c’est explorer, donner naissance à des mondes où le mystère, l’émotion et l’inattendu se rencontrent. Mon imagination déborde de projets – romans, récits captivants, et même des scénarios prêts à être portés à l’écran. Mais pour leur donner l’espace qu’ils méritent, j’ai besoin de votre soutien.
 <br>
