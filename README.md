@@ -47,16 +47,64 @@ Alors que la neige recouvre le paysage d’un voile immaculé, la vérité, elle
         <img src="Cover.png" alt="Couverture du livre de D.R. Horizons" class="book-cover">
         <p>Bientôt disponible. Plongez dans une œuvre captivante et hors du commun.</p>
         <div class="rating-container">
+    <title>Notation</title>
+    <style>
+        .rating-container {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        .rating {
+            font-size: 40px; /* Agrandir les étoiles */
+            color: gold; /* Couleur jaune */
+            cursor: pointer;
+        }
+
+        .star {
+            display: inline-block;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .star:hover {
+            transform: scale(1.2); /* Effet au survol */
+        }
+
+        .rating-comment {
+            width: 100%;
+            max-width: 300px;
+            margin-top: 10px;
+        }
+
+        button {
+            margin-top: 10px;
+            padding: 8px 12px;
+            font-size: 16px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<div class="rating-container">
     <div class="rating" id="rating-stars">
         <span class="star" data-value="1">★</span>
         <span class="star" data-value="2">★</span>
         <span class="star" data-value="3">★</span>
         <span class="star" data-value="4">★</span>
-        <span class="star" data-value="5">☆</span>
+        <span class="star" data-value="5">★</span>
     </div>
     <p>Moyenne des évaluations : <span id="average-rating">0</span>/5</p>
     <textarea id="rating-comment" class="rating-comment" rows="2" placeholder="Laissez un court commentaire..."></textarea>
     <button onclick="submitRating()">Envoyer</button>
+</div>
 
     <h3>Meilleurs commentaires :</h3>
     <div id="top-comments"></div>
