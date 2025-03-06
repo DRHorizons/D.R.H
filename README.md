@@ -33,6 +33,7 @@
         <a href="#oeuvres">Oeuvres</a>
         <a href="#contact">Contact</a>
         <a href="#don">Soutenir</a>
+        <a href="#don">Blog</a>
     </nav>
     <section class="section" id="oeuvres">
         <h1>Mon premier livre</h1>
@@ -245,6 +246,88 @@ Alors que la neige recouvre le paysage d’un voile immaculé, la vérité, elle
 
 </body>
 </html>
+<section class="section" id="Blog">
+    <h2>Derniers articles du Blog</h2>
+    <div class="blog-container">
+        <article class="blog-card">
+            <img src="https://via.placeholder.com/300x200" alt="Thriller psychologique illustration">
+            <h3>Pourquoi les thrillers psychologiques nous fascinent ?</h3>
+            <p>Les thrillers psychologiques jouent avec notre esprit et nos émotions. Mais pourquoi sommes-nous tant attirés par ces récits haletants ?</p>
+            <a href="#">Lire la suite</a>
+        </article>
+
+        <article class="blog-card">
+            <img src="https://via.placeholder.com/300x200" alt="Roman de séquestration">
+            <h3>Le roman de séquestration : un genre captivant</h3>
+            <p>Des histoires sombres et claustrophobes qui nous plongent dans l'esprit des captifs et de leurs bourreaux... Analyse du genre.</p>
+            <a href="#">Lire la suite</a>
+        </article>
+
+        <article class="blog-card">
+            <img src="https://via.placeholder.com/300x200" alt="David Gaudreault écriture">
+            <h3>David Gaudreault : mon processus d’écriture</h3>
+            <p>De l'idée à la publication, voici comment naissent mes romans, mes inspirations et mes techniques d'écriture.</p>
+            <a href="#">Lire la suite</a>
+        </article>
+    </div>
+</section>
+
+<style>
+.section {
+    padding: 50px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.blog-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.blog-card {
+    width: 300px;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+.blog-card img {
+    width: 100%;
+    height: auto;
+}
+
+.blog-card h3 {
+    padding: 10px;
+    font-size: 18px;
+}
+
+.blog-card p {
+    padding: 0 10px;
+    font-size: 14px;
+    color: #666;
+}
+
+.blog-card a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    background: #FF9900;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 0 0 8px 8px;
+    transition: background 0.3s ease;
+}
+
+.blog-card a:hover {
+    background: #E68A00;
+}
+</style>
+
     <h2>Contact</h2>
     <form id="contact-form" action="https://formspree.io/f/moveaedn" method="POST">
         <label for="name">Nom :</label>
