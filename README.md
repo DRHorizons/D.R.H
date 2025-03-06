@@ -46,6 +46,8 @@ Alors que la neige recouvre le paysage d’un voile immaculé, la vérité, elle
 </p>
         <img src="Cover.png" alt="Couverture du livre de D.R. Horizons" class="book-cover">
         <p>Plongez dans une œuvre captivante et hors du commun.</p>
+        
+        <a href="https://www.amazon.fr/dp/votre-lien-ici" class="buy-button">Commander sur Amazon</a>
 </div>
 
        <title>Notation</title>
