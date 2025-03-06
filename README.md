@@ -78,18 +78,25 @@ Alors que la neige recouvre le paysage d’un voile immaculé, la vérité, elle
 <section class="section" id="about">
         <h2>À propos</h2>
         <p>D.R. Horizons est un explorateur de l’imaginaire, un conteur aux mille facettes, porté par une soif d’aventure et une curiosité insatiable pour l’âme humaine. Écrivain atypique, il puise dans sa liberté de pensée et son goût pour la psychologie pour tisser des récits où le mystère flirte avec l’émotion, et où chaque détail a son importance. Installé à Montréal, une ville vibrante qui cultive l’ouverture d’esprit et la diversité des idées, il trouve dans ses rues, ses contrastes et son énergie créative une source d’inspiration inépuisable. L’écriture est pour lui une passion, un espace où il donne libre cours à son imagination débordante, façonnant des univers envoûtants où rien n’est jamais tout à fait ce qu’il semble être. </p>
+<section class="section" id="contact">
+    <h2>Contact</h2>
+    <form id="contact-form" action="https://formspree.io/f/moveaedn" method="POST">
+        <label for="name">Nom :</label>
+        <input type="text" id="name" name="name" required>
 
-    <section class="section" id="contact">
-        <h2>Contact</h2>
-        <form id="contact-form">
-            <label for="name">Nom :</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Email :</label>
-            <input type="email" id="email" name="email" required>
-            <label for="message">Message :</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
-            <button type="submit" class="big-button">Envoyer</button>
-        </form>
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message :</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <input type="hidden" name="_captcha" value="false">
+
+        <button type="submit" class="big-button">Envoyer</button>
+    </form>
+</section>
+
+
     </section>
     
     <section class="section" id="don">
