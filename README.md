@@ -93,10 +93,7 @@ Alors que la neige recouvre le paysage d’un voile immaculé, la vérité, elle
             background-color: #0056b3;
         }
     </style>
-</head>
-<body>
 
-<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
@@ -242,9 +239,6 @@ Alors que la neige recouvre le paysage d’un voile immaculé, la vérité, elle
         <button type="submit" class="big-button">Envoyer</button>
     </form>
 </section>
-
-
-    </section>
     
     <section class="section" id="don">
         <h2>Donnez vie à mes histoires</h2>
