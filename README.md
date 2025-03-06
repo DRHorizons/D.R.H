@@ -46,9 +46,27 @@ Alors que la neige recouvre le paysage d’un voile immaculé, la vérité, elle
 </p>
         <img src="Cover.png" alt="Couverture du livre de D.R. Horizons" class="book-cover">
         <p>Plongez dans une œuvre captivante et hors du commun.</p>
-        
         <a href="https://www.amazon.fr/dp/votre-lien-ici" class="buy-button">Commander sur Amazon</a>
-</div>
+
+<style>
+.buy-button {
+    display: inline-block;
+    background-color: #FF9900; /* Couleur Amazon */
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.buy-button:hover {
+    background-color: #E68A00; /* Couleur plus foncée au survol */
+}
+</style>
+
+
 
        <title>Notation</title>
     <style>
