@@ -52,8 +52,9 @@ Alors que la neige recouvre le paysage d’un voile immaculé, la vérité, elle
                 <span class="star" data-value="4">★</span>
                 <span class="star" data-value="5">☆</span>
             </div>
-            <textarea id="rating-comment" class="rating-comment" rows="2" placeholder="Laissez un court commentaire..."></textarea>
-             <button onclick="submitRating()">Envoyer</button>
+<p>Moyenne des évaluations : <span id="average-rating">0</span>/5</p>
+<textarea id="rating-comment" class="rating-comment" rows="2" placeholder="Laissez un court commentaire..."></textarea>
+<button onclick="submitRating()">Envoyer</button>
 
     <h3>Meilleurs commentaires :</h3>
     <div id="top-comments"></div>
