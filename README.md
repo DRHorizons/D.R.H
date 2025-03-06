@@ -46,8 +46,7 @@ Alors que la neige recouvre le paysage d’un voile immaculé, la vérité, elle
 </p>
         <img src="Cover.png" alt="Couverture du livre de D.R. Horizons" class="book-cover">
         <p>Bientôt disponible. Plongez dans une œuvre captivante et hors du commun.</p>
-        <div class="rating-container">
-    <title>Notation</title>
+       <title>Notation</title>
     <style>
         .rating-container {
             font-family: Arial, sans-serif;
@@ -55,8 +54,8 @@ Alors que la neige recouvre le paysage d’un voile immaculé, la vérité, elle
         }
 
         .rating {
-            font-size: 40px; /* Agrandir les étoiles */
-            color: gold; /* Couleur jaune */
+            font-size: 40px;
+            color: gold;
             cursor: pointer;
         }
 
@@ -66,7 +65,11 @@ Alors que la neige recouvre le paysage d’un voile immaculé, la vérité, elle
         }
 
         .star:hover {
-            transform: scale(1.2); /* Effet au survol */
+            transform: scale(1.2);
+        }
+
+        .selected {
+            font-weight: bold;
         }
 
         .rating-comment {
@@ -95,20 +98,19 @@ Alors que la neige recouvre le paysage d’un voile immaculé, la vérité, elle
 
 <div class="rating-container">
     <div class="rating" id="rating-stars">
-        <span class="star" data-value="1">★</span>
-        <span class="star" data-value="2">★</span>
-        <span class="star" data-value="3">★</span>
-        <span class="star" data-value="4">★</span>
-        <span class="star" data-value="5">★</span>
+        <span class="star" data-value="1">☆</span>
+        <span class="star" data-value="2">☆</span>
+        <span class="star" data-value="3">☆</span>
+        <span class="star" data-value="4">☆</span>
+        <span class="star" data-value="5">☆</span>
     </div>
     <p>Moyenne des évaluations : <span id="average-rating">0</span>/5</p>
     <textarea id="rating-comment" class="rating-comment" rows="2" placeholder="Laissez un court commentaire..."></textarea>
     <button onclick="submitRating()">Envoyer</button>
 </div>
 
-    <h3>Meilleurs commentaires :</h3>
-    <div id="top-comments"></div>
-</div>
+<h3>Meilleurs commentaires :</h3>
+<div id="top-comments"></div>
 
 <script>
     let ratings = JSON.parse(localStorage.getItem("ratings")) || [];
@@ -117,6 +119,11 @@ Alors que la neige recouvre le paysage d’un voile immaculé, la vérité, elle
     function submitRating() {
         let selectedStars = document.querySelectorAll('.star.selected').length;
         let comment = document.getElementById('rating-comment').value.trim();
+
+        if (selectedStars === 0) {
+            alert("Veuillez sélectionner une note.");
+            return;
+        }
 
         if (!comment) {
             alert("Veuillez écrire un commentaire.");
@@ -158,11 +165,9 @@ Alors que la neige recouvre le paysage d’un voile immaculé, la vérité, elle
         });
     });
 
-    // Mettre à jour les valeurs au chargement
     updateAverageRating();
     updateTopComments();
 </script>
-<section class="section" id="about">
     <h2>Contact</h2>
     <form id="contact-form" action="https://formspree.io/f/moveaedn" method="POST">
         <label for="name">Nom :</label>
