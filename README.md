@@ -55,7 +55,7 @@ Alors que la neige recouvre le paysage d’un voile immaculé, la vérité, elle
             <textarea id="rating-comment" class="rating-comment" rows="2" placeholder="Laissez un court commentaire..."></textarea>
              <button onclick="submitRating()">Envoyer</button>
 
-    <h3>Meilleurs commentaires 5 étoiles :</h3>
+    <h3>Meilleurs commentaires :</h3>
     <div id="top-comments"></div>
 
     <script>
