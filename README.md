@@ -251,14 +251,14 @@ Alors que la neige recouvre le paysage d’un voile immaculé, la vérité, elle
     <h2>Derniers articles du Blog</h2>
     <div class="blog-container">
         <article class="blog-card">
-            <img src="https://via.placeholder.com/300x200" alt="Thriller psychologique illustration">
+            <img src="imageart1.jpg" alt="Thriller psychologique illustration">
             <h3>Pourquoi les thrillers psychologiques nous fascinent ?</h3>
             <p>Les thrillers psychologiques jouent avec notre esprit et nos émotions. Mais pourquoi sommes-nous tant attirés par ces récits haletants ?</p>
             <a href="#">Lire la suite</a>
         </article>
 
         <article class="blog-card">
-            <img src="https://via.placeholder.com/300x200" alt="Roman de séquestration">
+            <img src="imageart2.jpg" alt="Roman de séquestration">
             <h3>Le roman de séquestration : un genre captivant</h3>
             <p>Des histoires sombres et claustrophobes qui nous plongent dans l'esprit des captifs et de leurs bourreaux... Analyse du genre.</p>
             <a href="#">Lire la suite</a>
