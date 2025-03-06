@@ -43,9 +43,15 @@ D’abord hésitante, Chloé accepte finalement l’invitation, rassurée par la
 Mais alors que la nuit s’installe et que les ombres du passé refont surface, une tension étrange s’insinue dans l’atmosphère feutrée du chalet. Des regards appuyés, des silences lourds, des détails qui ne collent pas… Chloé commence à se demander si elle a eu raison d’accepter cette invitation. Que cache réellement Charles derrière son sourire énigmatique et ses attentions presque obsessionnelles ?
 
 Alors que la neige recouvre le paysage d’un voile immaculé, la vérité, elle, s’apprête à éclater… et elle pourrait bien être plus glaçante que l’hiver lui-même.
-</p>
-        <img src="Cover.png" alt="Couverture du livre de D.R. Horizons" class="book-cover">
-        <p>Plongez dans une œuvre captivante et hors du commun.</p>
+<div class="text-center">
+    <img src="Cover.png" alt="Couverture du livre de D.R. Horizons" class="book-cover mx-auto">
+    <p class="mt-4 text-lg text-gray-700">Plongez dans une œuvre captivante et hors du commun.</p>
+    <a href="https://www.amazon.com/dp/votre-lien" target="_blank" 
+       class="mt-6 inline-block bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-3 px-6 rounded-lg shadow-lg transition-all duration-300 ease-in-out">
+        📖 Acheter sur Amazon
+    </a>
+</div>
+
        <title>Notation</title>
     <style>
         .rating-container {
