@@ -264,12 +264,6 @@ Alors que la neige recouvre le paysage d’un voile immaculé, la vérité, elle
             <a href="#">Lire la suite</a>
         </article>
 
-        <article class="blog-card">
-            <img src="https://via.placeholder.com/300x200" alt="David Gaudreault écriture">
-            <h3>David Gaudreault : mon processus d’écriture</h3>
-            <p>De l'idée à la publication, voici comment naissent mes romans, mes inspirations et mes techniques d'écriture.</p>
-            <a href="#">Lire la suite</a>
-        </article>
     </div>
 </section>
 
