@@ -96,6 +96,61 @@ Alors que la neige recouvre le paysage d’un voile immaculé, la vérité, elle
 </head>
 <body>
 
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notation</title>
+    <style>
+        .rating-container {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        .rating {
+            font-size: 40px;
+            color: gold;
+            cursor: pointer;
+        }
+
+        .star {
+            display: inline-block;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .star:hover {
+            transform: scale(1.2);
+        }
+
+        .selected {
+            font-weight: bold;
+        }
+
+        .rating-comment {
+            width: 100%;
+            max-width: 300px;
+            margin-top: 10px;
+        }
+
+        button {
+            margin-top: 10px;
+            padding: 8px 12px;
+            font-size: 16px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
 <div class="rating-container">
     <div class="rating" id="rating-stars">
         <span class="star" data-value="1">☆</span>
@@ -168,6 +223,9 @@ Alors que la neige recouvre le paysage d’un voile immaculé, la vérité, elle
     updateAverageRating();
     updateTopComments();
 </script>
+
+</body>
+</html>
     <h2>Contact</h2>
     <form id="contact-form" action="https://formspree.io/f/moveaedn" method="POST">
         <label for="name">Nom :</label>
